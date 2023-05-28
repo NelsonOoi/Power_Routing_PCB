@@ -1,4 +1,4 @@
-# Power_Routing_PCB
+# Power Routing PCB
 Power routing circuit for interfacing ESC with 36V battery, controlled by Feather MCU.
 
 Built in KiCad.
