@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model IMB03CGR
+#/329168/1067169/2.49/4/4/Relay or Contactor
+DEF IMB03CGR K 0 30 Y Y 1 F N
+F0 "K" 1250 300 50 H V L CNN
+F1 "IMB03CGR" 1250 200 50 H V L CNN
+F2 "IMB03CGR" 1250 100 50 H I L CNN
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F108-98024%7FG%7Fpdf%7FEnglish%7FENG_SS_108-98024_G.pdf%7F1462041-7" 1250 0 50 H I L CNN
+F4 "TE CONNECTIVITY - IMB03CGR - RELAY, SIGNAL, 1NO, 250VAC, 220VDC, 2A" 1250 -100 50 H I L CNN "Description"
+F5 "5" 1250 -200 50 H I L CNN "Height"
+F6 "655-IMB03CGR" 1250 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/IMB03CGR?qs=g%252BEszo6zu8MDgyfKdF9yIA%3D%3D" 1250 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 1250 -500 50 H I L CNN "Manufacturer_Name"
+F9 "IMB03CGR" 1250 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X SET+/RESET- 1 0 -100 200 R 50 50 0 0 P
+X COM 3 1400 -100 200 L 50 50 0 0 P
+X NO 6 1400 0 200 L 50 50 0 0 P
+X SET-/RESET+ 8 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 1200 100 1200 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

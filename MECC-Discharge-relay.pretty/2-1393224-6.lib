@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 2-1393224-6
+#/1299183/1067169/2.49/4/2/Relay or Contactor
+DEF 2-1393224-6 K 0 30 Y Y 1 F N
+F0 "K" 1150 300 50 H V L CNN
+F1 "2-1393224-6" 1150 200 50 H V L CNN
+F2 "213932246" 1150 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RYII&DocType=Data+Sheet&DocLang=English&PartCntxt=2-1393224-6&DocFormat=pdf" 1150 0 50 H I L CNN
+F4 "Power Relays, Standard, Monostable, DC, 223 mW Coil Power Rating DC, 112  Coil Resistance, SCHRACK Miniature Power PCB RYII" 1150 -100 50 H I L CNN "Description"
+F5 "13" 1150 -200 50 H I L CNN "Height"
+F6 "655-2-1393224-6" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/2-1393224-6?qs=cmykpc0%252BXL7%2FRi07z8c%2F6w%3D%3D" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "2-1393224-6" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X COM 11 0 -100 200 R 50 50 0 0 P
+X NC 12 1300 -100 200 L 50 50 0 0 N
+X COIL_1 A1 0 0 200 R 50 50 0 0 P
+X COIL_2 A2 1300 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
